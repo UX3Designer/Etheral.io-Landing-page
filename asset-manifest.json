@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ethre-frontend/static/css/main.77ad96bd.chunk.css",
-    "main.js": "/ethre-frontend/static/js/main.1c9ee325.chunk.js",
-    "main.js.map": "/ethre-frontend/static/js/main.1c9ee325.chunk.js.map",
+    "main.js": "/ethre-frontend/static/js/main.db4436dd.chunk.js",
+    "main.js.map": "/ethre-frontend/static/js/main.db4436dd.chunk.js.map",
     "runtime-main.js": "/ethre-frontend/static/js/runtime-main.4b243321.js",
     "runtime-main.js.map": "/ethre-frontend/static/js/runtime-main.4b243321.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/ethre-frontend/static/css/2.9f0b74ee.chunk.css",
@@ -52,6 +52,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.ee3cf5c0.chunk.js",
     "static/css/main.77ad96bd.chunk.css",
-    "static/js/main.1c9ee325.chunk.js"
+    "static/js/main.db4436dd.chunk.js"
   ]
 }
