@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ethre-frontend/static/css/main.77ad96bd.chunk.css",
-    "main.js": "/ethre-frontend/static/js/main.db4436dd.chunk.js",
-    "main.js.map": "/ethre-frontend/static/js/main.db4436dd.chunk.js.map",
+    "main.js": "/ethre-frontend/static/js/main.8a1d251c.chunk.js",
+    "main.js.map": "/ethre-frontend/static/js/main.8a1d251c.chunk.js.map",
     "runtime-main.js": "/ethre-frontend/static/js/runtime-main.4b243321.js",
     "runtime-main.js.map": "/ethre-frontend/static/js/runtime-main.4b243321.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/ethre-frontend/static/css/2.9f0b74ee.chunk.css",
@@ -27,7 +27,6 @@
     "static/media/eBTC.da346d80.png": "/ethre-frontend/static/media/eBTC.da346d80.png",
     "static/media/eETH.ae74ca95.png": "/ethre-frontend/static/media/eETH.ae74ca95.png",
     "static/media/ethereum.5ea789d5.svg": "/ethre-frontend/static/media/ethereum.5ea789d5.svg",
-    "static/media/hamburger.11220603.svg": "/ethre-frontend/static/media/hamburger.11220603.svg",
     "static/media/isa-icon.e9b13e53.png": "/ethre-frontend/static/media/isa-icon.e9b13e53.png",
     "static/media/item1.8fc6fb72.svg": "/ethre-frontend/static/media/item1.8fc6fb72.svg",
     "static/media/item1.e5a2e28c.svg": "/ethre-frontend/static/media/item1.e5a2e28c.svg",
@@ -52,6 +51,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.ee3cf5c0.chunk.js",
     "static/css/main.77ad96bd.chunk.css",
-    "static/js/main.db4436dd.chunk.js"
+    "static/js/main.8a1d251c.chunk.js"
   ]
 }
