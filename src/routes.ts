@@ -12,27 +12,27 @@ type TRoute = {
 
 const routes: TRoute[] = [
   {
-    path: "/",
+    path: "/ethre-frontend/",
     component: Home,
   },
   {
-    path: "/roadmap",
+    path: "/ethre-frontend/roadmap",
     component: Roadmap,
   },
   {
-    path: "/audit",
+    path: "/ethre-frontend/audit",
     component: Audit,
   },
   {
-    path: "/bonds",
+    path: "/ethre-frontend/bonds",
     component: Bonds,
   },
   {
-    path: "/swap",
+    path: "/ethre-frontend/swap",
     component: Swap,
   },
   {
-    path: "/mint",
+    path: "/ethre-frontend/mint",
     component: Mint,
   },
 ];

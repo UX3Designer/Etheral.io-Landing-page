@@ -36,11 +36,11 @@ const Hero: React.FC = () => {
       </h2>
 
       <div
-        className="container d-flex align-items-center justify-content-evenly"
-        style={{ width: "30%" }}
+        className="container d-flex align-items-center justify-content-center"
       >
         <EButton
           type="primary"
+          className="me-3"
           onClick={() =>
             (window.location.href =
               "https://ethereal-protocol.gitbook.io/ethere.al-protocol/")

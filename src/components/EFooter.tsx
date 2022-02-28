@@ -17,7 +17,7 @@ const EFooter: React.FC<EFooterProps> = ({ showContent = false }) => {
       <div className="container d-flex flex-column align-items-center">
         {showContent && (
           <>
-            <h4 className="text-center footer-title">Parted With Veta Fund</h4>
+            <h4 className="text-center footer-title">Partnered With Veta Fund</h4>
             <div className="container d-flex flex-row justify-content-center align-items-center mb-5">
               <EButton
                 className="me-3"

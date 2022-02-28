@@ -165,7 +165,7 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
   return (
     <StyledNavbar className="navbar navbar-expand-lg">
       <div className="container">
-        <button
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -176,7 +176,7 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
           onClick={() => dispatch(toggleSidebar())}
         >
           <HamburgerIcon />
-        </button>
+        </button> */}
         <Link className="navbar-brand d-none d-lg-block" to="/">
           <img
             src={theme.isDark ? etherealDarkLogo : etherealLightLogo}
