@@ -16,6 +16,7 @@ import { useWeb3React } from "@web3-react/core";
 import { useWalletModalToggle } from "../../../redux/application/hooks";
 import { injected } from "../../../connectors";
 import { toast } from "react-toastify";
+import { isMobile } from "../../../utils/userAgent";
 
 const StyledNavbar = styled.nav`
   background-color: transparent;
@@ -129,22 +130,22 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
       path: "/roadmap",
       text: "Roadmap",
     },
-    {
-      path: "/audit",
-      text: "Audit",
-    },
-    {
-      path: "/bonds",
-      text: "Bonds",
-    },
-    {
-      path: "/swap",
-      text: "Swap",
-    },
-    {
-      path: "/mint",
-      text: "Mint",
-    },
+    // {
+    //   path: "/audit",
+    //   text: "Audit",
+    // },
+    // {
+    //   path: "/bonds",
+    //   text: "Bonds",
+    // },
+    // {
+    //   path: "/swap",
+    //   text: "Swap",
+    // },
+    // {
+    //   path: "/mint",
+    //   text: "Mint",
+    // },
   ];
 
   const filteredNavlinks = navLinks.filter((navLink) => {
@@ -164,8 +165,8 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
 
   return (
     <StyledNavbar className="navbar navbar-expand-lg">
-      <div className="container">
-        <button
+      <div className="container" style={{justifyContent: 'center'}}>
+        {/* <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -176,8 +177,8 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
           onClick={() => dispatch(toggleSidebar())}
         >
           <HamburgerIcon />
-        </button>
-        <Link className="navbar-brand d-none d-lg-block" to="/">
+        </button> */}
+        <Link className="navbar-brand" style={{margin: isMobile ? '0px' : ''}} to="/">
           <img
             src={theme.isDark ? etherealDarkLogo : etherealLightLogo}
             alt="Ethere-al"

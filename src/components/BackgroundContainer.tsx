@@ -19,7 +19,7 @@ function getOverlayBackground(
   }
   return `linear-gradient(
     ${props.backgroundPosition === "top" ? "0deg" : "180deg"},
-    ${props.theme.background.primary} 46.22%,
+    ${props.theme.background.primary} 26.22%,
     ${rgba(props.theme.background.primary, 0)} 74.77%
   )`;
 }
@@ -34,6 +34,10 @@ const StyledBackgroundContainer = styled.section`
     props.backgroundPosition === "top" ? "top" : "bottom"};
   background-position-x: center;
 
+  @media screen and (max-width: 768px) {
+    background-size: 540px;
+  }
+  
   .overlay,
   .img-overlay {
     left: 0;

@@ -157,7 +157,7 @@ const HomeAccodion: React.FC<HomeAccodionProps> = ({ accordionItems }) => {
   return (
     <StyledHomeAccordion className="d-flex flex-column justify-content-center align-items-center">
       <h3 className="section-header fw-bold">Synthetic Asset Ecosystem</h3>
-      <div className="container" style={{marginBottom: '200px'}}>
+      <div className="container mt-3" style={{marginBottom: '200px'}}>
         <div className="row">
           <div className="col-sm d-flex flex-column justify-content-start align-items-center">
             <img src={isa} alt="isa" height={'84px'}/>

@@ -11,7 +11,7 @@ const StyledHero = styled.header`
   @media screen and (min-width: 786px) {
     padding-top: 130px;
     padding-bottom: 160px;
-
+    
     .title {
       line-height: 50px;
     }
@@ -36,17 +36,17 @@ const Hero: React.FC = () => {
       </h2>
 
       <div
-        className="container d-flex align-items-center justify-content-evenly"
-        style={{ width: "30%" }}
+        className="container d-flex align-items-center justify-content-center"
       >
         <EButton
           type="primary"
+          className="me-3"
           onClick={() =>
             (window.location.href =
               "https://ethereal-protocol.gitbook.io/ethere.al-protocol/")
           }
         >
-          Read Docs
+          Docs
         </EButton>
 
         <EButtonOutlined type="primary" onClick={() => window.open(Lightpaper)}>

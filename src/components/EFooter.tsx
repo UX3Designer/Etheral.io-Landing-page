@@ -17,8 +17,8 @@ const EFooter: React.FC<EFooterProps> = ({ showContent = false }) => {
       <div className="container d-flex flex-column align-items-center">
         {showContent && (
           <>
-            <h4 className="text-center footer-title">Parted With Veta Fund</h4>
-            <div className="container d-flex flex-row justify-content-center align-items-center mb-5">
+            <h4 className="text-center footer-title">Partnered With Veta Fund</h4>
+            <div className="container d-flex flex-row justify-content-center align-items-center mb-5 mt-2">
               <EButton
                 className="me-3"
                 type="secondary"
@@ -36,13 +36,13 @@ const EFooter: React.FC<EFooterProps> = ({ showContent = false }) => {
                 PitchDeck
               </EButton>
             </div>
-            <h6 className="text-center font-weight-bold">Join Our Discord </h6>
+            {/* <h6 className="text-center font-weight-bold">Join Our Discord </h6>
             <Discord
               className="mt-2 cursor-pointer"
               onClick={() =>
                 (window.location.href = "https://discord.gg/KWsaZHWTAx")
               }
-            />
+            /> */}
           </>
         )}
       </div>
