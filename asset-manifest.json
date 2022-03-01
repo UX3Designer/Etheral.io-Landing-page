@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e76c5ae4.chunk.css",
-    "main.js": "/static/js/main.de1004ed.chunk.js",
-    "main.js.map": "/static/js/main.de1004ed.chunk.js.map",
+    "main.js": "/static/js/main.bddebaa3.chunk.js",
+    "main.js.map": "/static/js/main.bddebaa3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c146c72a.js",
     "runtime-main.js.map": "/static/js/runtime-main.c146c72a.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/static/css/2.9f0b74ee.chunk.css",
@@ -23,7 +23,6 @@
     "static/media/clock.cf223097.svg": "/static/media/clock.cf223097.svg",
     "static/media/cog.01420caf.svg": "/static/media/cog.01420caf.svg",
     "static/media/dark-theme-background-image.18cca817.png": "/static/media/dark-theme-background-image.18cca817.png",
-    "static/media/discord.05eef19f.svg": "/static/media/discord.05eef19f.svg",
     "static/media/eBTC.da346d80.png": "/static/media/eBTC.da346d80.png",
     "static/media/eETH.ae74ca95.png": "/static/media/eETH.ae74ca95.png",
     "static/media/ethereum.5ea789d5.svg": "/static/media/ethereum.5ea789d5.svg",
@@ -51,6 +50,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.c5c134d9.chunk.js",
     "static/css/main.e76c5ae4.chunk.css",
-    "static/js/main.de1004ed.chunk.js"
+    "static/js/main.bddebaa3.chunk.js"
   ]
 }
