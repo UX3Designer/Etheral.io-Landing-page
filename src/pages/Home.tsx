@@ -68,16 +68,16 @@ const accordionItems: TAccordionItem[] = [
     buttonText: "",
   },
   {
-    Icon: AccordionIcon1,
-    iconClassName: "ms-1",
-    headerText: "ISA | Interchangeable Synthetic Asset",
-    body: `The platform’s inflationary token, ISA, is used to mint all synthetic hedges within the protocol.
-    During the mintage of any synthetic asset, ISA is 100% locked in the Treasury to generate
-    additional yields at a rate congruent with the asset’s price at the time of the mint. It has a hard
-    cap of 120m with an initial supply of 25m. Emissions stand at 5 ISA per block, equating to a 1.8-
-    year timeline before reaching the max supply. See the expanded breakdown further on for a
-    complete analysis of its economics.`,
-    buttonText: "Trade ISA",
+    Icon: AccordionIcon4,
+    headerText: "eBTC - eETH | Inverse Large Cap Assets",
+    body: `Using similar mint mechanics as eTY and eITY, one can mint two separate large-cap inverse
+    hedges using ISA. Rather than opening a leveraged farm to short either BTC or ETH, you can
+    create a synthetic asset that inversely follows the price action of the underlying token with a click
+    of a button. As such, you can collect a higher yield rate over time upon selling them to the
+    Treasury, decreasing your overall risk of holding either the inverse or underlying asset. We will
+    add additional large-cap tokens in the future once our platform achieves a more robust Treasury.
+    The community can also decide these additions through future governance.`,
+    buttonText: "",
   },
   {
     Icon: AccordionIcon2,
@@ -88,7 +88,7 @@ const accordionItems: TAccordionItem[] = [
     locked in the Treasury to generate additional yields. The resulting asset price will move
     following the Rate. A fee of 0.5% applies at the time of mint, which routes to the Treasury. See
     our Treasury section to read more about its strengths and long-term objectives.`,
-    buttonText: "Mint eTY",
+    buttonText: "",
   },
   {
     Icon: AccordionIcon3,
@@ -100,19 +100,7 @@ const accordionItems: TAccordionItem[] = [
     quickly offset by ISA bond rewards when sold to the Treasury. Furthermore, the mintage of both
     allows additional short-term flexibility for your hedging objectives. The same safety measures
     utilized for stabilizing eTY against a black swan event are present for eITY.`,
-    buttonText: "Mint eITY",
-  },
-  {
-    Icon: AccordionIcon4,
-    headerText: "eBTC - eETH | Inverse Large Cap Assets",
-    body: `Using similar mint mechanics as eTY and eITY, one can mint two separate large-cap inverse
-    hedges using ISA. Rather than opening a leveraged farm to short either BTC or ETH, you can
-    create a synthetic asset that inversely follows the price action of the underlying token with a click
-    of a button. As such, you can collect a higher yield rate over time upon selling them to the
-    Treasury, decreasing your overall risk of holding either the inverse or underlying asset. We will
-    add additional large-cap tokens in the future once our platform achieves a more robust Treasury.
-    The community can also decide these additions through future governance.`,
-    buttonText: "Mint eBTC | eETH",
+    buttonText: "",
   },
   {
     Icon: AccordionIcon5,
@@ -124,7 +112,7 @@ const accordionItems: TAccordionItem[] = [
     will release more information as logistics are finalized and feasibility tests are completed in
     January of 2022. Follow our announcement telegram channel to stay up to date with the latest
     developments platform-wide.`,
-    buttonText: "Coming Soon",
+    buttonText: "",
   }
 ];
 
