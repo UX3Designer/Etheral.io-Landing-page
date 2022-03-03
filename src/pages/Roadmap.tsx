@@ -35,18 +35,12 @@ const roadmapItems: TRoadmapItem[] = [
       "We will already be the first to bring to market a fully functional algorithmic option chain. We will also be the first to allow for on demand chain generation. While initially we are optimizing peer-to-peer liquidity, we are developing multi-reinforced “oceans” that will cycle liquidity through a portion of the treasury to allow for one sided fills - which will be another first of its kind. This basket type asset pool will allow for sustainable option chain growth - even for traditionally lower liquidity tokens.",
   },
   {
-    Icon: RoadmapIcon3,
-    title: "NFT Holder Pools and Hedges",
-    content:
-      "In an ever greater attempt to fuse traditional investment vehicles with crypto, we will be introducing NFT holder-specific farms in 2022. These NFTs will immortalize tangible works of rare art available to purchase using ISA and unlock additional pools, which will help hedge any possible depreciation risks associated with art investing. In the future, other modern-day artists could be added to the platform to ensure a continual selection of works. Q3, 2022.",
-  },
-  {
     Icon: RoadmapIcon4,
     title: "Tokenized Algorithms",
     content:
       "We have a diverse portfolio of deeply trained algorithms we created that are at the core of our platform. As we being to reach maturity, we are researching the introduction of a designated hub which opens up these systems to token holders where they can run their own simulations, extrapolations, and forecasts to optimize a particular portfolio they are building. This will allow for broader optimization across the entire ecosystem which will lead to more volume as well as another source of revenue for platform.",
-  },
-];
+    },
+  ];
 
 const StyledRoadmap = styled.section`
   .title {
