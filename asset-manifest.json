@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b66baa78.chunk.css",
-    "main.js": "/static/js/main.efc5e6ca.chunk.js",
-    "main.js.map": "/static/js/main.efc5e6ca.chunk.js.map",
+    "main.js": "/static/js/main.f6b50f3f.chunk.js",
+    "main.js.map": "/static/js/main.f6b50f3f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c146c72a.js",
     "runtime-main.js.map": "/static/js/runtime-main.c146c72a.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/static/css/2.9f0b74ee.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.b66baa78.chunk.css.map": "/static/css/main.b66baa78.chunk.css.map",
     "static/js/2.2fa97610.chunk.js.LICENSE.txt": "/static/js/2.2fa97610.chunk.js.LICENSE.txt",
     "static/media/Ethereal_Investor.6bdf70d4.pdf": "/static/media/Ethereal_Investor.6bdf70d4.pdf",
+    "static/media/Notraditional.38b5baae.svg": "/static/media/Notraditional.38b5baae.svg",
     "static/media/index.css": "/static/media/TT Norms Pro Regular.afdec721.otf",
     "static/media/accordion-caret.a2532f7d.svg": "/static/media/accordion-caret.a2532f7d.svg",
     "static/media/back-button.c309efbc.svg": "/static/media/back-button.c309efbc.svg",
@@ -26,6 +27,7 @@
     "static/media/eBTC.da346d80.png": "/static/media/eBTC.da346d80.png",
     "static/media/eETH.ae74ca95.png": "/static/media/eETH.ae74ca95.png",
     "static/media/ethereum.7003cad5.svg": "/static/media/ethereum.7003cad5.svg",
+    "static/media/fi_shuffle.c3747803.svg": "/static/media/fi_shuffle.c3747803.svg",
     "static/media/isa-icon.e9b13e53.png": "/static/media/isa-icon.e9b13e53.png",
     "static/media/item1.4bb30ccf.svg": "/static/media/item1.4bb30ccf.svg",
     "static/media/item2.43b8dbc2.svg": "/static/media/item2.43b8dbc2.svg",
@@ -34,21 +36,21 @@
     "static/media/item3.c55ebf1f.svg": "/static/media/item3.c55ebf1f.svg",
     "static/media/item4.41d0d65f.svg": "/static/media/item4.41d0d65f.svg",
     "static/media/item4.9aac8a4a.svg": "/static/media/item4.9aac8a4a.svg",
-    "static/media/item5.e4b05f9b.svg": "/static/media/item5.e4b05f9b.svg",
-    "static/media/item7.b4e179c1.svg": "/static/media/item7.b4e179c1.svg",
     "static/media/lightpaper.b5fe1995.pdf": "/static/media/lightpaper.b5fe1995.pdf",
     "static/media/logo-dark.0d366f77.png": "/static/media/logo-dark.0d366f77.png",
     "static/media/logo-light.26d08f4b.png": "/static/media/logo-light.26d08f4b.png",
+    "static/media/mgsm.97619f28.svg": "/static/media/mgsm.97619f28.svg",
     "static/media/question-circle.2c09c100.svg": "/static/media/question-circle.2c09c100.svg",
     "static/media/theme-switch-dark.95beda54.svg": "/static/media/theme-switch-dark.95beda54.svg",
     "static/media/theme-switch-light.906eaaa7.svg": "/static/media/theme-switch-light.906eaaa7.svg",
-    "static/media/unicorn.532e929f.png": "/static/media/unicorn.532e929f.png"
+    "static/media/unicorn.532e929f.png": "/static/media/unicorn.532e929f.png",
+    "static/media/usrp.7e383e58.svg": "/static/media/usrp.7e383e58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c146c72a.js",
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.2fa97610.chunk.js",
     "static/css/main.b66baa78.chunk.css",
-    "static/js/main.efc5e6ca.chunk.js"
+    "static/js/main.f6b50f3f.chunk.js"
   ]
 }
