@@ -9,8 +9,10 @@ import { ReactComponent as AccordionIcon1 } from "../assets/images/accordion-ico
 import { ReactComponent as AccordionIcon2 } from "../assets/images/accordion-icons/item2.svg";
 import { ReactComponent as AccordionIcon3 } from "../assets/images/accordion-icons/item3.svg";
 import { ReactComponent as AccordionIcon4 } from "../assets/images/accordion-icons/item4.svg";
-import { ReactComponent as AccordionIcon5 } from "../assets/images/accordion-icons/item5.svg";
-import { ReactComponent as AccordionIcon7 } from "../assets/images/accordion-icons/item7.svg";
+import { ReactComponent as AccordionIcon5 } from "../assets/images/accordion-icons/Notraditional.svg";
+import { ReactComponent as AccordionIcon7 } from "../assets/images/accordion-icons/fi_shuffle.svg";
+import { ReactComponent as AccordionIcon8 } from "../assets/images/accordion-icons/mgsm.svg";
+import { ReactComponent as AccordionIcon9 } from "../assets/images/accordion-icons/usrp.svg";
 import HomeAccodion from "../components/Home/HomeAccodion";
 
 const StyledHome = styled.section``;
@@ -42,7 +44,7 @@ const accordionItems: TAccordionItem[] = [
     buttonText: "",
   },
   {
-    Icon: AccordionIcon7,
+    Icon: AccordionIcon8,
     headerText: "MGMS",
     body: `Extrapolating out the market sentiment algorithms weighting our synthetic economy values, 
     we also offer a mintable asset that tracks the projected aggregated sentiments of the US market on a 
@@ -57,7 +59,7 @@ const accordionItems: TAccordionItem[] = [
     buttonText: "",
   },
   {
-    Icon: AccordionIcon7,
+    Icon: AccordionIcon9,
     headerText: "usRP",
     body: `One of the most damaging events to befall a portfolio is an unforeseen recession. Therefore, 
     following suit with our eTY and elTY products, we are introducing a tokenized measure of recession based risk. 

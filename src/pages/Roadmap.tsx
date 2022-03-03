@@ -24,15 +24,15 @@ export type TRoadmapItem = {
 const roadmapItems: TRoadmapItem[] = [
   {
     Icon: RoadmapIcon1,
-    title: "Synthetic World event Hedges",
+    title: "Additional Asset Mints",
     content:
-      "We will add additional use cases for ISA through synthetic world event hedges scheduled for Q1, 2022. When governance is implemented in Q4, 2022, investors can vote these events in, creating specific hedges for those events.",
+      "We are looking into creating additional asset types that further increase the capabilities of portfolios built using ethere.al. New large cap derivative products are under review, along with additional sEconomies, and additional volatility trading tools. Furthermore, we are examining areas to insure physical assets through our platform using NFTs which will allow for yield generation on off chain assets.",
   },
   {
     Icon: RoadmapIcon2,
-    title: "Dynamic Treasury Backed Stable Coin",
+    title: "Deep Option Liquidity",
     content:
-      "Once the Treasury has been established and the external fund begins returning profit to the Treasury, we will implement a platform-specific stable coin to provide additional use cases for ISA. This stable coin will also allow custom smart contracts to be created to facilitate real-world transactions such as real estate acquisitions and rental management. Our goal is to have this model implemented in the second quarter of 2022, but it will largely depend on the strength of our Treasury by then as the stable itself will have dynamic yield backing. If proven successful, the stable backing will provide additional yields to the Treasury through lending on other platforms or provide additional asset-type deposits into the Treasury.",
+      "We will already be the first to bring to market a fully functional algorithmic option chain. We will also be the first to allow for on demand chain generation. While initially we are optimizing peer-to-peer liquidity, we are developing multi-reinforced “oceans” that will cycle liquidity through a portion of the treasury to allow for one sided fills - which will be another first of its kind. This basket type asset pool will allow for sustainable option chain growth - even for traditionally lower liquidity tokens.",
   },
   {
     Icon: RoadmapIcon3,
@@ -42,15 +42,9 @@ const roadmapItems: TRoadmapItem[] = [
   },
   {
     Icon: RoadmapIcon4,
-    title: "Lending Partnership with Thorus",
+    title: "Tokenized Algorithms",
     content:
-      "Through a partnership with Thorus (formally Wault Finance), additional utilities will be added to ISA in the form of dynamic interest rates upon lending any synthetic asset from our platform.",
-  },
-  {
-    Icon: RoadmapIcon1,
-    title: "Governance",
-    content:
-      "Governance will be added, with input on world hedges, NFT artists, and potential future partnerships. Locked voting pools will last 7-10 days and be implemented in Q4, 2022, with votes weighted per the total unit count held in your wallet. We will establish a separate Governance Committee to collect and sort proposals.",
+      "We have a diverse portfolio of deeply trained algorithms we created that are at the core of our platform. As we being to reach maturity, we are researching the introduction of a designated hub which opens up these systems to token holders where they can run their own simulations, extrapolations, and forecasts to optimize a particular portfolio they are building. This will allow for broader optimization across the entire ecosystem which will lead to more volume as well as another source of revenue for platform.",
   },
 ];
 

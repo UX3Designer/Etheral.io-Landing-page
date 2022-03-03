@@ -8,6 +8,7 @@ import { TAccordionItem } from "../../pages/Home";
 import { ReactComponent as AccordionCaret } from "../../assets/images/accordion-caret.svg";
 import isa from "../../assets/images/isa-icon.png";
 import rho from "../../assets/images/rho.png";
+import lol from "../../assets/images/options.png";
 
 interface HomeAccodionProps {
   accordionItems: TAccordionItem[];
@@ -199,7 +200,7 @@ const HomeAccodion: React.FC<HomeAccodionProps> = ({ accordionItems }) => {
             </p>
           </div>
           <div className="col-sm d-flex flex-column justify-content-center align-items-center">
-            <img src={rho} alt="options" height={'84px'}/>
+            <img src={lol} alt="options" height={'84px'}/>
             <h2 className="mt-2 mb-2">Options</h2>
             <p>
               As a team that consists of several professional investors, we
