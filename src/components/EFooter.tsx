@@ -55,7 +55,7 @@ export default EFooter;
 const StyledEFooter = styled.footer`
   background: ${(props) => props.theme.background.secondary};
   color: ${(props) => props.theme.color.secondary};
-  padding: 30px 0 35px;
+  padding: 124px 0 35px;
   min-height: 90px;
 
   .footer-title {

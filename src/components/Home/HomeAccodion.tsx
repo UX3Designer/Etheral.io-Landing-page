@@ -15,7 +15,7 @@ interface HomeAccodionProps {
 }
 
 const StyledHomeAccordion = styled.div`
-  padding-bottom: 30px;
+  padding-bottom: 124px;
 npm
   @media screen and (min-width: 768px) {
     padding-bottom: 190px;
