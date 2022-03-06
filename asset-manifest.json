@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b66baa78.chunk.css",
-    "main.js": "/static/js/main.e3379744.chunk.js",
-    "main.js.map": "/static/js/main.e3379744.chunk.js.map",
+    "main.js": "/static/js/main.0afaa2cd.chunk.js",
+    "main.js.map": "/static/js/main.0afaa2cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c146c72a.js",
     "runtime-main.js.map": "/static/js/runtime-main.c146c72a.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/static/css/2.9f0b74ee.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.9f0b74ee.chunk.css.map": "/static/css/2.9f0b74ee.chunk.css.map",
     "static/css/main.b66baa78.chunk.css.map": "/static/css/main.b66baa78.chunk.css.map",
     "static/js/2.2fa97610.chunk.js.LICENSE.txt": "/static/js/2.2fa97610.chunk.js.LICENSE.txt",
-    "static/media/Ethereal_Investor.6bdf70d4.pdf": "/static/media/Ethereal_Investor.6bdf70d4.pdf",
+    "static/media/Ethereal_Investor.1f278f1c.pdf": "/static/media/Ethereal_Investor.1f278f1c.pdf",
     "static/media/Notraditional.38b5baae.svg": "/static/media/Notraditional.38b5baae.svg",
     "static/media/index.css": "/static/media/TT Norms Pro Regular.afdec721.otf",
     "static/media/accordion-caret.a2532f7d.svg": "/static/media/accordion-caret.a2532f7d.svg",
@@ -35,9 +35,9 @@
     "static/media/item3.c55ebf1f.svg": "/static/media/item3.c55ebf1f.svg",
     "static/media/item4.41d0d65f.svg": "/static/media/item4.41d0d65f.svg",
     "static/media/item4.9aac8a4a.svg": "/static/media/item4.9aac8a4a.svg",
-    "static/media/lightpaper.b5fe1995.pdf": "/static/media/lightpaper.b5fe1995.pdf",
-    "static/media/logo-dark.dc705b67.png": "/static/media/logo-dark.dc705b67.png",
-    "static/media/logo-light.c289a0cb.png": "/static/media/logo-light.c289a0cb.png",
+    "static/media/lightpaper.e4c94922.pdf": "/static/media/lightpaper.e4c94922.pdf",
+    "static/media/logo-dark.5be41d94.png": "/static/media/logo-dark.5be41d94.png",
+    "static/media/logo-light.4c65f82f.png": "/static/media/logo-light.4c65f82f.png",
     "static/media/mgsm.97619f28.svg": "/static/media/mgsm.97619f28.svg",
     "static/media/question-circle.2c09c100.svg": "/static/media/question-circle.2c09c100.svg",
     "static/media/rho.af5b4fd7.png": "/static/media/rho.af5b4fd7.png",
@@ -51,6 +51,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.2fa97610.chunk.js",
     "static/css/main.b66baa78.chunk.css",
-    "static/js/main.e3379744.chunk.js"
+    "static/js/main.0afaa2cd.chunk.js"
   ]
 }
