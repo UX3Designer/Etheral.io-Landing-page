@@ -26,7 +26,7 @@ const roadmapItems: TRoadmapItem[] = [
     Icon: RoadmapIcon1,
     title: "Additional Asset Mints",
     content:
-      "We are looking into creating additional asset types that further increase the capabilities of portfolios built using ethere.al. New large cap derivative products are under review, along with additional sEconomies, and additional volatility trading tools. Furthermore, we are examining areas to insure physical assets through our platform using NFTs which will allow for yield generation on off chain assets.",
+      "We are looking into creating additional asset types that further increase the capabilities of portfolios built using ethere.al. New large cap derivative products are under review, along with additional Economies, and additional volatility trading tools. Furthermore, we are examining areas to insure physical assets through our platform using NFTs which will allow for yield generation on off-chain assets.",
   },
   {
     Icon: RoadmapIcon2,
@@ -38,7 +38,7 @@ const roadmapItems: TRoadmapItem[] = [
     Icon: RoadmapIcon4,
     title: "Tokenized Algorithms",
     content:
-      "We have a diverse portfolio of deeply trained algorithms we created that are at the core of our platform. As we being to reach maturity, we are researching the introduction of a designated hub which opens up these systems to token holders where they can run their own simulations, extrapolations, and forecasts to optimize a particular portfolio they are building. This will allow for broader optimization across the entire ecosystem which will lead to more volume as well as another source of revenue for platform.",
+      "We have created a diverse portfolio of deeply trained algorithms that are at the core of our platform. We are researching the introduction of a designated hub which opens up these systems to token holders where they can run their own simulations, extrapolations, and forecasts to build and optimize their portfolio. This will allow for broader optimization across the entire ecosystem which will lead to more volume as well as another source of revenue for platform.",
     },
   ];
 
