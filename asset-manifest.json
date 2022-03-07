@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b66baa78.chunk.css",
-    "main.js": "/static/js/main.0afaa2cd.chunk.js",
-    "main.js.map": "/static/js/main.0afaa2cd.chunk.js.map",
+    "main.js": "/static/js/main.cdd65218.chunk.js",
+    "main.js.map": "/static/js/main.cdd65218.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c146c72a.js",
     "runtime-main.js.map": "/static/js/runtime-main.c146c72a.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/static/css/2.9f0b74ee.chunk.css",
@@ -28,6 +28,7 @@
     "static/media/eETH.ae74ca95.png": "/static/media/eETH.ae74ca95.png",
     "static/media/ethereum.7003cad5.svg": "/static/media/ethereum.7003cad5.svg",
     "static/media/fi_shuffle.c3747803.svg": "/static/media/fi_shuffle.c3747803.svg",
+    "static/media/hamburger.5f1107d1.svg": "/static/media/hamburger.5f1107d1.svg",
     "static/media/isa-icon.e9b13e53.png": "/static/media/isa-icon.e9b13e53.png",
     "static/media/item1.4bb30ccf.svg": "/static/media/item1.4bb30ccf.svg",
     "static/media/item2.43b8dbc2.svg": "/static/media/item2.43b8dbc2.svg",
@@ -51,6 +52,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.2fa97610.chunk.js",
     "static/css/main.b66baa78.chunk.css",
-    "static/js/main.0afaa2cd.chunk.js"
+    "static/js/main.cdd65218.chunk.js"
   ]
 }
