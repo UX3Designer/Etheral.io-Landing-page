@@ -33,7 +33,7 @@ const EFooter: React.FC<EFooterProps> = ({ showContent = false }) => {
                 type="secondary"
                 onClick={() => window.open(ethereal_Investor)}
               >
-                PitchDeck
+                Pitch Deck
               </EButton>
             </div>
             {/* <h6 className="text-center font-weight-bold">Join Our Discord </h6>
