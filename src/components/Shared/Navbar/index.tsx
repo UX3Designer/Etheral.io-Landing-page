@@ -94,25 +94,32 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
   const theme = useTheme();
   const dispatch = useAppDispatch();
   const { pathname } = useLocation();
-  const { active, account, library, connector, activate, deactivate, error, chainId } = useWeb3React()
+  const {
+    active,
+    account,
+    library,
+    connector,
+    activate,
+    deactivate,
+    error,
+    chainId,
+  } = useWeb3React();
   const toggleWalletModal = useWalletModalToggle();
 
   const connect = async () => {
     try {
-      if(chainId==undefined){
-        toast.error('Please switch your network to avalanche!', {
+      if (chainId == undefined) {
+        toast.error("Please switch your network to avalanche!", {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
-          progress: undefined
-          });
-      }
-      else{
+          progress: undefined,
+        });
+      } else {
         await activate(injected);
-        
       }
     } catch (error) {
       console.log(error);
@@ -165,8 +172,8 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
 
   return (
     <StyledNavbar className="navbar navbar-expand-lg">
-      <div className="container" style={{justifyContent: 'center'}}>
-        {/* <button
+      <div className="container" style={{ justifyContent: "center" }}>
+        <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -175,18 +182,30 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
           onClick={() => dispatch(toggleSidebar())}
+          style={{ position: "absolute", left: 20 }}
         >
           <HamburgerIcon />
-        </button> */}
-        <Link className="navbar-brand" style={{margin: isMobile ? '0px' : ''}} to="/">
-          <img
-            src={theme.isDark ? etherealDarkLogo : etherealLightLogo}
-            alt="Ethere-al"
-          />
-        </Link>
+        </button>
 
+        {pathname === "/" && (
+          <Link
+            className="navbar-brand"
+            style={{ margin: isMobile ? "0px" : "" }}
+            to="/"
+          >
+            <img
+              src={theme.isDark ? etherealDarkLogo : etherealLightLogo}
+              alt="Ethere-al"
+            />
+          </Link>
+        )}
         {title && (
-          <span className="mobile-page-title d-block d-lg-none">{title}</span>
+          <span
+            className="navbar-brand d-flex justify-content-center align-items-center"
+            style={{ minHeight: "125px", margin: isMobile ? "0px" : "" }}
+          >
+            {title}
+          </span>
         )}
 
         <div className="collapse navbar-collapse" id="navbarNav">
