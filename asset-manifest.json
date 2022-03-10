@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b66baa78.chunk.css",
-    "main.js": "/static/js/main.cdd65218.chunk.js",
-    "main.js.map": "/static/js/main.cdd65218.chunk.js.map",
+    "main.js": "/static/js/main.b5251552.chunk.js",
+    "main.js.map": "/static/js/main.b5251552.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c146c72a.js",
     "runtime-main.js.map": "/static/js/runtime-main.c146c72a.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/static/css/2.9f0b74ee.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/ethereum.7003cad5.svg": "/static/media/ethereum.7003cad5.svg",
     "static/media/fi_shuffle.c3747803.svg": "/static/media/fi_shuffle.c3747803.svg",
     "static/media/hamburger.5f1107d1.svg": "/static/media/hamburger.5f1107d1.svg",
-    "static/media/isa-icon.e9b13e53.png": "/static/media/isa-icon.e9b13e53.png",
+    "static/media/isa-icon.020c7228.png": "/static/media/isa-icon.020c7228.png",
     "static/media/item1.4bb30ccf.svg": "/static/media/item1.4bb30ccf.svg",
     "static/media/item2.43b8dbc2.svg": "/static/media/item2.43b8dbc2.svg",
     "static/media/item2.61bc6dc2.svg": "/static/media/item2.61bc6dc2.svg",
@@ -37,11 +37,9 @@
     "static/media/item4.41d0d65f.svg": "/static/media/item4.41d0d65f.svg",
     "static/media/item4.9aac8a4a.svg": "/static/media/item4.9aac8a4a.svg",
     "static/media/lightpaper.e4c94922.pdf": "/static/media/lightpaper.e4c94922.pdf",
-    "static/media/logo-dark.5be41d94.png": "/static/media/logo-dark.5be41d94.png",
-    "static/media/logo-light.4c65f82f.png": "/static/media/logo-light.4c65f82f.png",
     "static/media/mgsm.97619f28.svg": "/static/media/mgsm.97619f28.svg",
     "static/media/question-circle.2c09c100.svg": "/static/media/question-circle.2c09c100.svg",
-    "static/media/rho.af5b4fd7.png": "/static/media/rho.af5b4fd7.png",
+    "static/media/rho.dd4f7b6f.png": "/static/media/rho.dd4f7b6f.png",
     "static/media/theme-switch-dark.95beda54.svg": "/static/media/theme-switch-dark.95beda54.svg",
     "static/media/theme-switch-light.906eaaa7.svg": "/static/media/theme-switch-light.906eaaa7.svg",
     "static/media/unicorn.532e929f.png": "/static/media/unicorn.532e929f.png",
@@ -52,6 +50,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.2fa97610.chunk.js",
     "static/css/main.b66baa78.chunk.css",
-    "static/js/main.cdd65218.chunk.js"
+    "static/js/main.b5251552.chunk.js"
   ]
 }
