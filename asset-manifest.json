@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b66baa78.chunk.css",
-    "main.js": "/static/js/main.b5251552.chunk.js",
-    "main.js.map": "/static/js/main.b5251552.chunk.js.map",
+    "main.js": "/static/js/main.343a5a2b.chunk.js",
+    "main.js.map": "/static/js/main.343a5a2b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c146c72a.js",
     "runtime-main.js.map": "/static/js/runtime-main.c146c72a.js.map",
     "static/css/2.9f0b74ee.chunk.css": "/static/css/2.9f0b74ee.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/Ethereal_Investor.1f278f1c.pdf": "/static/media/Ethereal_Investor.1f278f1c.pdf",
     "static/media/Notraditional.38b5baae.svg": "/static/media/Notraditional.38b5baae.svg",
     "static/media/index.css": "/static/media/TT Norms Pro Regular.afdec721.otf",
+    "static/media/Twitter.c1f7dcdf.svg": "/static/media/Twitter.c1f7dcdf.svg",
     "static/media/accordion-caret.a2532f7d.svg": "/static/media/accordion-caret.a2532f7d.svg",
     "static/media/back-button.c309efbc.svg": "/static/media/back-button.c309efbc.svg",
     "static/media/background-image.8902a506.png": "/static/media/background-image.8902a506.png",
@@ -50,6 +51,6 @@
     "static/css/2.9f0b74ee.chunk.css",
     "static/js/2.2fa97610.chunk.js",
     "static/css/main.b66baa78.chunk.css",
-    "static/js/main.b5251552.chunk.js"
+    "static/js/main.343a5a2b.chunk.js"
   ]
 }
