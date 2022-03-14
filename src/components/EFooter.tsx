@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router";
 // import Container from "react-bootstrap/Container";
 import EButton from "./EButton";
-import { ReactComponent as Discord } from "../assets/images/discord.svg";
+import { ReactComponent as Twitter } from "../assets/images/Twitter.svg";
 import ethereal_Investor from "../assets/Ethereal_Investor.pdf";
 
 interface EFooterProps {
@@ -36,13 +36,13 @@ const EFooter: React.FC<EFooterProps> = ({ showContent = false }) => {
                 Pitch Deck
               </EButton>
             </div>
-            {/* <h6 className="text-center font-weight-bold">Join Our Discord </h6>
-            <Discord
+            <h6 className="text-center font-weight-bold">Follow Us on Twitter </h6>
+            <Twitter
               className="mt-2 cursor-pointer"
               onClick={() =>
-                (window.location.href = "https://discord.gg/KWsaZHWTAx")
+                (window.location.href = "https://twitter.com/EtherealMarkets")
               }
-            /> */}
+            />
           </>
         )}
       </div>
