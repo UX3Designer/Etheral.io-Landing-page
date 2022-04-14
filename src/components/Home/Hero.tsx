@@ -3,6 +3,7 @@ import React from "react";
 import EButton from "../EButton";
 import EButtonOutlined from "../EButtonOtlined";
 import Lightpaper from "../../assets/lightpaper.pdf";
+import Starthere from "../../assets/Ethereal Introduction.pdf";
 
 const StyledHero = styled.header`
   padding-top: 35px;
@@ -41,12 +42,21 @@ const Hero: React.FC = () => {
         <EButton
           type="primary"
           className="me-3"
+          onClick={() => window.open(Starthere)}>
+          Start Here
+
+        </EButton>
+        
+        <EButton
+          type="primary"
+          className="me-3"
           onClick={() =>
             (window.location.href =
               "https://ethereal-protocol.gitbook.io/ethere.al-protocol/")
           }
         >
           Docs
+
         </EButton>
 
         <EButtonOutlined type="primary" onClick={() => window.open(Lightpaper)}>

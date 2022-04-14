@@ -75,7 +75,7 @@ export function useInactiveListener(suppress = false) {
       const handleChainChanged = () => {
         // eat errors
         activate(injected, undefined, true).catch((error) => {
-          toast.error('Please switch your network to avalanche!', {
+          toast.error('Wrong network!', {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -92,7 +92,7 @@ export function useInactiveListener(suppress = false) {
         if (accounts.length > 0) {
           // eat errors
           activate(injected, undefined, true).catch((error) => {
-            toast.error('Please switch your network to avalanche!', {
+            toast.error('Wrong network!', {
               position: "top-right",
               autoClose: 5000,
               hideProgressBar: false,
