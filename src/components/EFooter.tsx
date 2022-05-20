@@ -19,22 +19,7 @@ const EFooter: React.FC<EFooterProps> = ({ showContent = false }) => {
           <>
             <h4 className="text-center footer-title">Partnered With Veta Fund</h4>
             <div className="container d-flex flex-row justify-content-center align-items-center mb-5 mt-2">
-              <EButton
-                className="me-3"
-                type="secondary"
-                onClick={() => {
-                  window.location.href =
-                    "https://ethereal-protocol.gitbook.io/ethere.al-protocol/";
-                }}
-              >
-                Docs
-              </EButton>
-              <EButton
-                type="secondary"
-                onClick={() => window.open(ethereal_Investor)}
-              >
-                Pitch Deck
-              </EButton>
+
             </div>
             <h6 className="text-center font-weight-bold">Follow Us on Twitter </h6>
             <Twitter

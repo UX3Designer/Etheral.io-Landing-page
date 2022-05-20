@@ -133,10 +133,7 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
       path: "/",
       text: "About",
     },
-    {
-      path: "/roadmap",
-      text: "Roadmap",
-    },
+
     // {
     //   path: "/audit",
     //   text: "Audit",
@@ -162,7 +159,6 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
     } else {
       if (
         navLink.path === "/" ||
-        navLink.path === "/roadmap" ||
         navLink.path === "/audit"
       )
         return false;
@@ -225,22 +221,7 @@ const Navbar: React.FC<TNavbarProps> = ({ title }) => {
           </ul>
 
           <div className="ms-auto buttons-container d-flex align-items-center">
-            <ThemeSwitch />
 
-            <a href="/#" className="mx-3">
-              Launch App
-            </a>
-
-            {account && !error ? (
-              <EButton type="primary" outline>
-                {account.substring(0, 4)}....
-                {account.substring(account.length - 4, account.length)}
-              </EButton>
-            ) : (
-              <EButton className="nav-btn" type="primary" onClick={connect}>
-                Connect
-              </EButton>
-            )}
           </div>
         </div>
       </div>

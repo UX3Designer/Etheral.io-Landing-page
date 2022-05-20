@@ -46,18 +46,7 @@ const Hero: React.FC = () => {
           Start Here
 
         </EButton>
-        
-        <EButton
-          type="primary"
-          className="me-3"
-          onClick={() =>
-            (window.location.href =
-              "https://ethereal-protocol.gitbook.io/ethere.al-protocol/")
-          }
-        >
-          Docs
-
-        </EButton>
+  
 
         <EButtonOutlined type="primary" onClick={() => window.open(Lightpaper)}>
           Lightpaper
